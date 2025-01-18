@@ -2,9 +2,12 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
-  padding: 0 0 60px; /* Added padding at the bottom to prevent overlap */
+  padding: 0;
   background-color: #e6f0ff; /* Light blue background */
   color: #333;
+  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+  display: flex;
+  flex-direction: column; /* Make the body a flex container to push the footer to the bottom */
 }
 
 header {
@@ -63,8 +66,6 @@ footer {
   padding: 10px;
   background: #0077b6; /* Dark blue footer */
   color: #fff;
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  z-index: 1000; /* Ensure footer stays above other content */
+  margin-top: auto; /* Push the footer to the bottom of the flex container */
 }
