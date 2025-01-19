@@ -7,12 +7,12 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header>
+  <div class="header">
     <h1>Jari Pennanen</h1>
     <p>Web Developer | Creative Thinker</p>
-  </header>
+  </div>
 
-  <section id="about">
+  <div class="section" id="about">
     <h2>About Me</h2>
     <p>I am a passionate and experienced Full Stack developer with a strong focus on 
       JavaScript-based frameworks such as React and Node.js. Over the course of my career,
@@ -20,9 +20,9 @@
       allowing me to adapt and thrive in various technical environments.
       What drives me most is creating impactful solutions that make a real difference.</p>
     </p>
-  </section>
+  </div>
 
-  <section id="projects">
+  <div class="section projects">
     <h2>Projects</h2>
     <div class="project">
       <h3>
@@ -30,12 +30,17 @@
           Green POI mobile application
         </a>
       </h3>
-      <p>A group project developed during Buutti Oy's "Starttipaketti ohjelmistokehitykseen" course 
-        ("A Starter Package for Software Development"), 
-        which I attended from September to December 2024. 
-        This is a ReactJS-based mobile application designed to help users discover 
-        Points of Interest (POIs) in their vicinity. 
-        <a href="https://gitlab.com/buutti_sok_jkl_2024_green/poi" target="_new">View Project in GitLab</a></p>
+      <div class="chapter">
+        <img src="https://gitlab.com/buutti_sok_jkl_2024_green/poi/-/raw/master/doc/images/mockup.png" />
+        <p>
+          A group project developed during Buutti Oy's "Starttipaketti ohjelmistokehitykseen" course 
+          ("A Starter Package for Software Development"), 
+          which I attended from September to December 2024. 
+          This is a ReactJS-based mobile application designed to help users discover 
+          Points of Interest (POIs) in their vicinity. 
+          <a href="https://gitlab.com/buutti_sok_jkl_2024_green/poi" target="_new">
+            View Project in GitLab.</a></p>
+      </div>
     </div>
     <div class="project">
       <h3>
@@ -43,30 +48,37 @@
         Green Forum
       </a>
     </h3>
-    <p>Another group project developed during Starttipaketti course. 
-      A "vanilla" JavaScript and HMTL based frontend application utilizing demo API.
-      <a href="https://gitlab.com/buutti_sok_jkl_2024_green/forum" target="_new">View Project in GitLab</a></p>
+    <div class="chapter">
+      <img src="https://gitlab.com/buutti_sok_jkl_2024_green/forum/-/raw/master/images/screenshot.png" />
+      <p>Another group project developed during Starttipaketti course. 
+        A "vanilla" JavaScript and HTML based frontend application utilizing API.
+        <a href="https://gitlab.com/buutti_sok_jkl_2024_green/forum" target="_new">
+          View Project in GitLab.</a></p>
+    </div>
   </div>
   <div class="project">
       <h3>
         <a href="https://github.com/pennasenjari/buutti-sok-assignments" target="_new">
-          Starttipaketti Ohjelmistokehitykseen, Personal Assignments
+          Starttipaketti Ohjelmistokehitykseen: Personal Assignments
        </a>
       </h3>
-      <p>A repository showcasing my solutions to approximately 275 JavaScript and React programming tasks, 
+      <div class="chapter">
+        <img src="images/buutti-sok-assignments.png" />
+        <p>A repository showcasing my solutions to approximately 275 JavaScript and React programming tasks, 
         completed as part of my learning and development journey.
-        <a href="https://github.com/pennasenjari/buutti-sok-assignments" target="_new">View repository GitLab</a></p>
+        <a href="https://github.com/pennasenjari/buutti-sok-assignments" target="_new">View repository in GitLab</a></p>
+      </div>
     </div>
-  </section>
+  </div>
 
-  <section id="contact">
+  <div class="section" id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:pennasenjari@gmail.com">pennasenjari@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/pennasenjari">github.com/pennasenjari</a></p>
-  </section>
+  </div>
 
-  <footer>
+  <div class="footer">
     <p>&copy; 2025 Jari Pennanen. All rights reserved.</p>
-  </footer>
+  </div>
 </body>
 </html>
