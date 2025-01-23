@@ -70,6 +70,12 @@ h2 {
   margin-right: 20px;
 }
 
+.screenshots img {
+  max-width: 14vw;
+  max-height: 14vh;
+  margin-right: 20px;
+}
+
 .omakuva {
   max-width: 14vw;
   max-height: 14vh;
@@ -91,4 +97,9 @@ a:hover {
   background: #0077b6; /* Dark blue footer */
   color: #fff;
   margin-top: auto; /* Push the footer to the bottom of the flex container */
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 8px;
 }
